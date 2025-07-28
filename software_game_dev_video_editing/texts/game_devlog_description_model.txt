@@ -1,0 +1,30 @@
+Title Model: Evil Death Devlog #01 : Player base locomotion setup - Godot Engine
+
+Description Model:
+
+Immerse yourself in Evil Death, an intense zombie video game set in the heart of Sub-Saharan Africa. Play as an African female soldier, a courageous heroine tasked with a crucial mission : to find and bring back a vital chemical compound, essential to creating the antidote capable of saving humanity from the zombie infection. Between perilous exploration, thrilling combat, and survival challenges, every decision counts. Discover the behind-the-scenes development of this unique game in this new Devlog!
+
+👉 The tasks I've done in this video :
+<YouTube Chapter Timestamps>
+
+I'm open to any suggestions, improvements or ideas for this game. Appreciate and put your feedback in comments section.
+
+👉 You can download player 3D model from below links :
+- For Sketchfab : <Url Web link>
+- For Blender : <Url Web link>
+- For Godot : <Url Web link>
+
+👉 Discover my 3D models assets banks :
+- https://www.gamedevmarket.net/member/cacybernetic
+- https://www.cgtrader.com/designers/cacybernetic
+- https://flippednormals.com/creator/cacybernetic
+- https://www.artstation.com/cacybernetic
+- https://www.cubebrush.co/cacybernetic
+- https://sketchfab.com/prince-obrymec
+- https://cacybernetic.gumroad.com
+
+🟡 If you're interested in the content I offer, you can subscribe via this link : https://www.youtube.com/channel/UCrs5ZJ59XqXwW7kZUm-zVUA
+Also remember to turn on the notification bell so you don't miss any of our upcoming videos.
+
+#devlog #gaming #game #3d #videogame #evildeath #aaa #godot #godotengine #africangame #zombie #gamedev #gamedevelopment
+
