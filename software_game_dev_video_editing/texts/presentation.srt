@@ -1,6 +1,6 @@
 Salut à tous, j'espère que vous allez bien. Aujourd'hui je vous présente le projet Evil Death.
 
-Evil Death est un jeu vidéo de zombies intense qui se déroulant au cœur de l'Afrique subsaharienne. Le joueur principale est un soldat envoyé en mission pour rapporter un composé chimique afin de créer l'antidote pour guérir les infectés.
+Evil Death est un jeu vidéo de zombies intense qui se déroule au cœur de l'Afrique subsaharienne. Le joueur principale est un soldat envoyé en mission pour rapporter un composé chimique afin de créer l'antidote pour guérir les infectés.
 
 Voilà, c'est l'objectif du jeu en O de 1. Je me suis beaucoup inspiré du légendaire Resident Evil ainsi que d'autres jeux dans l'élaboration du gameplay de ce jeu.
 
@@ -8,7 +8,5 @@ Cela fait un moment déjà que je travail sur ce projet et jusqu'ici, j'ai impl�
 
 Donc, que pensez vous du rendu final? Donnez vos avis dans les commentaires. Si vous avez des idées ou des fonctionalités intéressantes pour le jeu, surtout ne vous gêner pas, cracher le morceau.
 
-C'est bien d'écouter les idées des autres pour enrichir le développement du jeu.
-
-Maintenant, comment est-ce je suis parvenu à ce rendu final? Revenons au début du projet.
+C'est bien d'écouter les idées des autres pour enrichir le développement du jeu. Maintenant, comment est-ce je suis parvenu à ce rendu final? Revenons au début du projet.
 
