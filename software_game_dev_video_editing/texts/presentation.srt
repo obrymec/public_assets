@@ -10,3 +10,65 @@ Donc, que pensez vous du rendu final? Donnez vos avis dans les commentaires. Si 
 
 C'est bien d'écouter les idées des autres pour enrichir le développement du jeu. Maintenant, comment est-ce je suis parvenu à ce rendu final? Revenons au début du projet.
 
+----------------------------------------------------------------------
+
+Au début, je n'avais pas le joueur principal du jeu. Donc il fallait que j'en modélise un.
+En fonction de l'objectif global du jeu, je devais modéliser un soldat militaire de A à Z.
+
+Le problème, c'est que je ne suis pas aussi bon en scultage de personnage ou sur tout autre forme de scultage qui se rapproche de cela. Certe je suis désinateur mais je suis pas sculteur.
+
+Il y a une très grande différence entre déssiner sur un papier en 2Dimension et sculter en 3Dimension. Il y a bien plus de paramètres à prendre en charge lorsqu'on sculte que lorsqu'on déssine simplement sur un papier ou tableau. Si vous voyez ce que je veux dire.
+
+Je voulais certe faire le joueur, mais je ne voulais pas commencer avec un projet totalement vierge. Je voulais démarrer avec un modèle de base. Et c'est là que notre cher ami Sketchfab fait son entré. Je suis donc allez sur Sketchfab pour chercher une mesh de base sur laquelle le joueur final allait être modélisé.
+
+Après de nombreuses recherches sur le site, j'ai fini par trouvé le modèle de base idéal pour faire mon joueur principal. C'est le modèle que vous voyez actuellement à l'écran. J'ai télécharger ce modèle que j'ai ensuite importer dans Blender pour pouvoir l'éditer.
+
+La modélisation du joueur m'a pris une semaine, avec la retouche de la mesh d'origine, la génération des textures, des matériaux, etc... Je suis satisfait du résultat final. Petite précision, j'ai également chercher et télécharger d'autres modèles 3D que j'ai ensuite adaptés au context de la modélisation que je faisais.
+
+Bah oui, je ne vais qu'en même me mettre à rebatir la houe, si elle est déjà existante et cadre avec mes attentes. Sinon à quoi sert le travail des modélisateurs (moi y compris) qui publient tous les jours leurs créations sur les platformes dédiées à cet effet.
+
+Maintenant que nous avons notre joueur, il est temps de lui donné vie à travers des animations. Et c'est là que mixamo entre en scène.
+
+-----------------------------------------------------------------------
+
+Voici le service Mixamo. Il est fort probable que vous connaissiez déjà l'utilité de ce service. Mixamo m'a permis insérer le squelette d'animation ainsi que les animations du joueur de notre jeu. Ce service est libre d'accès, mais pas open source. Le lien est dans la description si vous voulez
+accéder à ce service.
+
+J'ai d'abord exporté mon joueur depuis Blender au format (.fbx) que j'ai ensuite importer dans Mixamo
+afin de bénéficier de son système d'auto-rig.
+
+Dès que mon joueur à acquis le squelette d'animation, je l'ai directement télécharger à son état
+initial afin de pouvoir lui mettre toutes les animations que j'aurais télécharger de Mixamo dans
+Blender.
+
+Je me suis concentrer uniquement sur les animations dont j'avais besoin pour mettre en place le
+système de locomotion de base du joueur. Il me fallait donc récolté les animations à utiliser pour
+les cycles de la marche et de la course.
+
+Lorsque j'ai eu toutes les animations dont-il me fallait, j'ai créer un nouveau projet Blender où
+je les ai toutes importées grâce l'addon Mixamo-Root. Mixamo-Root est un plugin Blender permettant
+d'ajouter un root bone à une animation. Root bone fait référence à l'os qui se trouve à la racine
+de l'arbre qui définit le squelette d'animation tout entier du joueur).
+
+Le root bone générer reprends les positions successives du hips bone. Pourquoi je vous raconte
+toutes ces conneris? C'est parce que, une fois dans Godot, le joueur sera ratâcher à une objet central qui vas gérer les transformations du joueur dans l'espace 3D en fonction de ses animations.
+
+Oui, oui j'avoue que ce que je viens de dire est trop technique, Mais patience, tout ça sera clair
+pendant la programmation du déplacement dynamique du joueur synchrôniser à ses animations.
+
+Le lien vers le plugin Blender Mixamo-Root est dans la description. A l'heure actuel, je n'utilise
+plus ce addon parce qu'il présente des insuffisances lors de la projection des positions du hips
+bone au root bone qu'il cré. Ce que je viens de dire est personnel. Peut-être que le mode de
+fonctionnement de ce plugin comble vaux attentes.
+
+Voici le résulat final après quelques heures de travail. J'ai donc due gérer le mouvement racine
+(root motion en anglais) de toutes les animations mannuellement pour avoir le résulat que vous
+voyez actuellement à l'écran.
+
+Le mouvement racine est correctement synchrôniser à chaque animation. C'est très important de bien
+extraire le mouvement racine de chaque animation. Cela facilitera ainsi le travail au script Godot
+qui déplacera le joueur en fonction des positions et rotations du root bone récupérer de l'animation
+en cours d'exécution.
+
+Maintenant que nous avons les animations correctement configurées avec leur mouvement racine, il est
+tant d'exporter tous ce bazard dans Godot.
