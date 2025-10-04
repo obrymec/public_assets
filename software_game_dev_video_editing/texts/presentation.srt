@@ -51,7 +51,7 @@ d'ajouter un root bone à une animation. Root bone fait référence à l'os qui 
 de l'arbre qui définit le squelette d'animation tout entier du joueur).
 
 Le root bone générer reprends les positions successives du hips bone. Pourquoi je vous raconte
-toutes ces conneris? C'est parce que, une fois dans Godot, le joueur sera ratâcher à une objet central qui vas gérer les transformations du joueur dans l'espace 3D en fonction de ses animations.
+toutes ces conneris? C'est parce que, une fois dans Godot, le joueur sera ratâcher à un objet central qui vas gérer les transformations du joueur dans l'espace 3D en fonction de ses animations.
 
 Oui, oui j'avoue que ce que je viens de dire est trop technique, Mais patience, tout ça sera clair
 pendant la programmation du déplacement dynamique du joueur synchrôniser à ses animations.
