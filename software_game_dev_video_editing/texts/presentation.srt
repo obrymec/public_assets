@@ -141,23 +141,23 @@ un clavier et une souris ou une manette de jeu.
 
 ---------------------------------------------------------------------------------------------------
 J'ai d'abord commencé par implémenté le module de détection des entrées de l'utilisateur, parce
-qu'avant tout, nous devons savoir quelle touche est appuyé afin de déduire quelle à effectuer.
-Le module supporte les entrées de type clavier, souris, manette ainsi que les combinaisons de
-touches. 
+qu'avant tout, nous devons savoir quelle touche est appuyé afin de déduire quelle opération à
+effectuer. Le module supporte les entrées de type clavier, souris, manette ainsi que les
+combinaisons de touches. 
 
 Viens ensuite notre cher RootMotion. Ce module écoute les viariations des positions et rotations
 du RootBone enfin de déterminer la vélocité à appliqué sur le CharacterBody de notre joueur. C'est
 ce que je disais lorsque je travailais sur les animations du joueur. C'est à ça que cela sert.
 Tout ceci pour avoir un déplacement synchrônisé à l'animation en cours d'exécution.
 
-Le module NC_BaseLocomotion fournit des fonctionnalités de base communes à gestion de la locomotion
-d'un joueur. Cette classe sera par la suite redéfinir par celles qui héritent d'elle pour
-l'implémentation des fonctions propres à notre joueur.
+Le module NC_BaseLocomotion fournit des fonctionnalités de base communes à la gestion de la
+locomotion d'un joueur. Cette classe sera par la suite redéfinie par celles qui héritent
+d'elle pour l'implémentation des fonctions propres à notre joueur.
 
 IDEM pour les modules NC_DirectionalCycle, NC_StatesCycle et NC_PlayerMode. 
 
 La plupard du temps, le joueur à sera amener à courir et à marcher. On aura donc le cycle de la
-course et celui de la marche. D'où la mise en place des scripts running.gd et walking.gd. Ceux 
+course et celui de la marche. D'où la mise en place des scripts running.gd et walking.gd. Ces 
 scripts héritent de la classe NC_DirectionalCycle pour redéfinir les touches de commande par
 défaut participant aux déplacement du joueur.
 
@@ -173,12 +173,12 @@ de déplacement resteront inchangés et seul l'animation sera différente.
 
 Pour moi, le joueur peut avoir un ou plusieurs mode. Qu'est-ce que je mets dans mode? je définis
 un mode du joueur comme étant un ensemble d'états que peut avoir le joueur durant ce mode.
-Supposons lorsque le joueur commence son aventure, il n'a pas d'arme. Dans ce cas, on dira qu'il
-est à vite. A vide chez moi représente un mode. Lorsqu'il possèdera par exemple un arc, ce sera
+Supposons lorsque le joueur commence son aventure, il n'a pas d'arme. Dans ce cas, on dira
+qu'il est à vide. A vide représente un mode. Lorsqu'il possèdera par exemple un arc, ce sera
 également un autre mode. Et dans chacun de ses modes, le joueur pourra faire des actions
 spécifique.
 
-Par example, en mode arc, le joueur peut charger et tirer son arc. Alors qu'à vite, il ne peut
+Par example, en mode arc, le joueur peut charger et tirer son arc. Alors qu'à vide, il ne peut
 pas faire cela, car il ne garde pas d'arc en ce moment. Par contre, il peut se battre à main nu.
 J'espère que vous comprenez où je veux en venir. Un mode du joueur est un ensemble d'états
 possible durant l'exécution de ce mode. Il peut faire telle chose dans ce mode et ne pas
@@ -186,7 +186,7 @@ pouvoir faire telle chose dans un autre mode.
 
 C'est sur ce concept que j'ai implémenté la classe SingleMode. Elle hérite de la classe
 NC_PlayerMode. Cette classe représente le joueur à vide. Le joueur lorsqu'il n'a rien garder
-sur ses mains. C'est dans cette même classe que j'implémente toutes les actions possibles
+sur ses mains. C'est dans cette même classe que j'ai implémenté toutes les actions possibles
 que le joueur peut faire un fois dans ce mode.
 
 Et pour finir, nous avons le script player.gd qui import toutes mes implémentations afin de
@@ -196,14 +196,14 @@ en fonction des possibilités qu'offre le mode active du joueur. C'est égalemen
 script que la vie globale du joueur est définie et aussi la possibilité de change le mode
 en cours d'exécution.
 
-Voilà en bref, la logique derrière le système de locomotion de base du joueur. Si compile
+Voilà en bref, la logique derrière le système de locomotion de base du joueur. Si je compile
 tout ce bazard, on obtient le résulat que j'avais tout au début de cette vidéo.
 
 La version Godot brut du joueur est disponible. Checker le lien d'accès dans la barre de 
 description.
 
 Ce projet est open source, vous aurez accès au source du projet à la fin de son développement
-pour les currieux qui veulent comprendre cela a été fait en détail.
+pour les currieux qui veulent comprendre comment cela a été fait en détail.
 
 Merçi d'avoir suivi la vidéo, si vous avez des questions ou préaucupations; des idées, 
 de fonctionnalitées ou d'amélioration, n'hésitez pas à le mentioner dans les commentaires.
