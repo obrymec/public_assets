@@ -1,4 +1,4 @@
-Title Model: Evil Death Devlog #01 : Player base locomotion setup - Godot Engine
+Title Model: Evil Death Devlog #01 : Player base locomotion setup - Godot Engine AAA Game
 
 Description Model:
 
@@ -24,7 +24,7 @@ I'm open to any suggestions, improvements or ideas for this game. Appreciate and
 - https://cacybernetic.gumroad.com
 
 🟡 If you're interested in the content I offer, you can subscribe via this link : https://www.youtube.com/channel/UCrs5ZJ59XqXwW7kZUm-zVUA
-Also remember to turn on the notification bell so you don't miss any of our upcoming videos.
+Also remember to turn on the notification bell so you don't miss any of my upcoming videos.
 
-#devlog #gaming #game #3d #videogame #evildeath #aaa #godot #godotengine #africangame #zombie #gamedev #gamedevelopment
+#devlog #gaming #game #3d #videogame #evildeath #aaa #godot #godotengine #africangame #zombie #gamedev #gamedevelopment #vlog #aa
 
