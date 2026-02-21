@@ -1,10 +1,11 @@
 Title Model: Resident Evil Revelations I PS4 Gameplay - Episode #<N> : <Main Title>
+Title Model: Resident Evil Revelations II PS4 Gameplay - Episode #<N> : <Main Title>
 
 Description Model:
 
 👉 Rejoignez-nous sur notre serveur Discord : https://discord.gg/kmufMSwm
 
-🎮 *Resident Evil : Revelations* est un jeu vidéo d’action-aventure et d’horreur développé par Capcom, sorti initialement en 2012. L’histoire se situe entre les événements de *Resident Evil 4* et *Resident Evil 5* , suivant Jill Valentine et Chris Redfield dans leur lutte contre un nouveau virus bioterroriste, le T-Abyss. Le jeu mise sur une ambiance oppressante et un retour aux racines du survival horror, avec des environnements claustrophobes, notamment un paquebot infesté de créatures mutantes, et combine exploration, résolution d’énigmes et combats tendus pour offrir une expérience immersive et terrifiante.
+Sorti en 2015, *Resident Evil Revelations 2* est un épisode marquant de la saga Resident Evil. Le jeu suit Claire Redfield et Moira Burton, piégées sur une île mystérieuse, tandis que Barry Burton part à leur recherche. Structuré en épisodes, il met l’accent sur la coopération, la gestion des ressources et une atmosphère sombre mêlant exploration, énigmes et combats, offrant une expérience survival horror intense et immersive.
 
 Les tâches que nous avons accompli durant cette session de gameplay :
 <Define Video Tasks under Youtube Chapters timestamps>

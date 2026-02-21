@@ -1,0 +1,114 @@
+----------------------------------------- Introduction ---------------------------------------------
+
+Salut tout le monde j'espère que vous allez bien. De mon côté, ça va à merveille.
+
+Le but de cette vidéo est d'aborder le rôle et le fonctionnement des conteneurs de Blender.
+
+Si vous ne comprenez pas de quoi je parle, pas d'inquiétude, cela deviendra vite clair dans votre tête.
+
+On fera aussi des manipulations sur Blender dans le but d'illustrer les cas d'utilisation pratique pour que vous puissiez bien comprendre de quoi il s'agit.
+
+Il faut savoir que la plupard des débutants sur le logiciel Blender sont souvent frapper par une panoplit de buttons comme s'ils étaient en face du tableau de bord d'un avion de ligne, de chasse ou encore d'un hélicoptère.
+
+Bon, vous voyez déjà de quoi je parle. Cela fais qu'ils se perdent rapidement dans les utilisations. ça se passe pendant les premières prises de contacte avec le logiciel.
+
+Cette video vient casser cette barrière. Ce qu'il faut savoir avant tout, c'est que Blender est un ensemble d'éditeurs tous liés les uns aux autres.
+
+Si vous n'avez pas compris ce que je viens de dire, je vous recommande vivement de voire la vidéo qui présente le fonctionnement et le rôle des éditeurs de travail de Blender. Le lien de la vidéo se trouve dans la description.
+
+Avant de continuer, abonnez-vous et activez la cloche de notification pour ne pas passez à côté des prochaînes vidéos.
+
+-------------------------------------- Définition d'un conteneur ----------------------------------
+
+Maintenant, je vais ouvrir Blender pour qu'on attack le vif du sujet. Alors, c'est quoi Blender?
+
+Blender est un logiciel gratuit et open-source qui permet de créer des images et des animations en 3D. Il est utilisé pour modéliser des objets, animer des personnages, faire des effets spéciaux etc... Voilà! ça c'est la définition classique.
+
+De manière plus technique on pourrai dire que Blender est constitué d'un ensemble d'éditeurs ayant tous une tâche bien spécifique tout en se partagant les données.
+
+Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur de chargement d'image afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
+
+Il y a plusieurs cas pratiques qui illustrent ce que je viens de dire. Mais ce n'est pas l'objet de cette vidéo. De toutes les façons, on les verra au fur et à mesure dans les futur vidéos.
+
+Qu'est-ce que je sous-entend en parlant de conteneur?
+
+En réalité, je n'est pas pu trouvé le bon mot, mais comme ce que je vais vous montrer se raproche du rôle d'un conteneur en générale, j'ai décidé d'utiliser ce mot.
+
+Donc ne me masacrer pas dans les commentaires s'il vous plaît. Un conteneur de Blender est une partie ou une section dans laquelle est affichée un éditeur de travail.
+
+Vous voyez l'éditeur de propriété qui est ici. Figurez-vous qu'il est afficher dans un conteneur.
+
+J'avoue que ce n'est pas très apparent. Mais il est afficher dans un conteneur. Et ça, il est important que vous le sachiez.
+
+L'éditeur affichant la hierarchie de la scène est également présenté dans un conteneur.
+
+L'éditeur de Timeline est aussi afficher dans un conteneur. Idem pour la Viewport 3D.
+
+Comment je fais pour identifier les conteneurs? Et bien, c'est simple.
+
+Il suffit de regarder les bordures autour des éditeurs. Elles sont de couleur noir si vous êtes en mode Dark.
+
+Le curseur change de forme lorsqu'on ait sur la bordure d'un éditeur donné. Reprenoms l'éditeur de propriétés.
+
+Ceci est une bordure. ça aussi est une bordure. Ici aussi est une bordure. L'ensemble constitu les contours du conteneur qui contient l'éditeur de propriétés.
+
+On constate que lorsqu'on met la souris sur une bordure, elle change de forme et incite au redimensionnement.
+
+Le même effet est également observer sur les autres éditeurs actuellement affichés. J'espère que vous comprenez de quoi je parle.
+
+De toutes les façons, l'espace commentaires est là pour tout éclaircissement ou préaucupations.
+
+------------------------------------- Mode de fonctionnement ---------------------------------------
+
+Les conteneurs de Blender nous donnent la possibilité de faire certaines actions afin de nous permettre de personnaliser notre espace de travail.
+
+Comment ça marche? C'est très simple. Considérons la viewport 3D.
+
+Glissons notre souris sur le coin se situant en bas à droite sur les bordures de cet éditeur, jusqu'à ce que le curseur se transform en un viseur ou une croie.
+
+Ensuite, faites un clique droit lorsque le curseur est dans cet état. Un petit menu contextuel s'affiche avec les options disponibles ou possibles.
+
+On peut effectuer une subdivision verticale et horizontale. Fusionner et permuter les contenues de deux conteneurs distincts.
+
+Alors, lorsque je sélectionne la subdivision horizontal, on constate que Blender nous demande qu'elle partie du conteneur nous souhaitons subdiviser.
+
+Lorsque vous avez trouver la partie que vous voulez subdiviser, il vous suffira tout simple d'appuyer sur le bouton gauche de la souris. C'est le même principe pour la subdivision verticale.
+
+Lorsque vous voulez fusioner le contenu de deux conteneurs, regarder attentivement la flèche du curseur, car elle indique le sens de la fusion.
+
+Dans le cas d'une fusion verticale, lorsque le curseur de la souris se transform en une flèche vers le haut, cela voudra dire que le conteneur situé en bas prendra l'espace occupée par le conteneur dans lequel le pointeur de notre souris se trouve actuellement.
+
+Et inversement, lorsque curseur de la souris se transform en une flèche vers le bas, cela voudra dire que le conteneur situé en haut prendra l'espace occupée par le conteneur dans lequel le pointeur de notre souris se trouve actuellement.
+
+C'est le même principe dans le cas d'une fusion horizontale. Pour permuter le contenu de deux conteneurs distincts, vous sélectionnez l'option `Swap Areas`. C'est tout aussi simple que ça.
+
+Vous devez savoir que la permutation des contenus se fera par rapport au coin sur lequel vous demandez la permutation. Un exemple concrete.
+
+Si je décide de faire ma permutation par rapport à ce coin là. Vous voyez les contenus des conteneurs qui sont affectés par cette permutation là!
+
+Si je décide encore de faire ma permutation à partir de ce coin là. Vous voyez les contenus des conteneurs qui sont affectés!
+
+Qu'est-ce que cela nous donne comme information? On déduit que la permutation se fait en fonction du coin choisi.
+
+Donc, si voulez permuter des contenus bien précis, choisissez le coin adéquat pour ça. Voilà vous savez à présent tout ce qu'il y a à savoir sur les conteneurs de Blender.
+
+Je vous recommande vivement de pratiquer tout ce que nous venons de voire pour que vous comprenez d'avantage comment tout cela fonctionne.
+
+Ce n'est qu'avec la pratique que vous aurez la main. C'est en pratiquant que vous allez bien cerner les choses. Oui je me repète peu être. Mais c'est comme ça dans ce domaine.
+
+Si vous avez des zones ombres, n'hésitez pas de bombarder l'espace commentaire de vos incompréhensions ou préaucupations. ça sera un plaisir pour moi d'y répondre dans les plus bref délais.
+
+Et si vos questions ou doutes nécessitent que je fasse une vidéo dédiée, je le ferai avec grand plaisir.
+
+----------------------------------------- Conclusion -----------------------------------------------
+
+Maintenant, récapitulons. Vous devez notez que Blender est constitué d'un ensemble d'éditeurs tous liés et spécialisés dans une tâche bien précise.
+
+Chaque éditeur est afficher dans un conteneur qui lui est propre afin donner la possibilé à nous, utilisateur du logiciel de personnaliser l'espace de travail à notre guise.
+
+Tout ceci afin de nous donner une expérience utilisateur adaptée à notre goût et à notre manière de travailler sur le logiciel.
+
+Bon, nous somme arrivé à la fin de cette vidéo. Si vous avez pu suivre la vidéo jusqu'ici, alors félicitation à vous. Cela prouvre que vous êtes quelqu'un de très concentrer.
+
+N'oubliez pas de liker la vidéo, de vous abonnez et d'activer la cloche de notifications pour ne pas rater les prochaines vidéos. Sur ce, je vous laisse. Portez-vous bien et on se retrouve à la prochaine vidéo.
+
