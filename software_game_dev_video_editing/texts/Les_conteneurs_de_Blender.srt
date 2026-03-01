@@ -10,7 +10,7 @@ On fera aussi des manipulations sur Blender dans le but d'illustrer les cas d'ut
 
 Il faut savoir que la plupard des débutants sur le logiciel Blender sont souvent frapper par une panoplit de buttons comme s'ils étaient en face du tableau de bord d'un avion de ligne, de chasse ou encore d'un hélicoptère.
 
-Bon, vous voyez déjà de quoi je parle. Cela fais qu'ils se perdent rapidement dans les utilisations. ça se passe pendant les premières prises de contacte avec le logiciel.
+Ce qui fais qu'ils se perdent rapidement dans les utilisations. ça se passe pendant les premières prises de contacte avec le logiciel.
 
 Cette video vient casser cette barrière. Ce qu'il faut savoir avant tout, c'est que Blender est un ensemble d'éditeurs tous liés les uns aux autres.
 
@@ -26,7 +26,7 @@ Blender est un logiciel gratuit et open-source qui permet de créer des images e
 
 De manière plus technique on pourrai dire que Blender est constitué d'un ensemble d'éditeurs ayant tous une tâche bien spécifique tout en se partagant les données.
 
-Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur de chargement d'image afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
+Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur 3D ainsi que de celui  du chargement d'image (je parle du fameux Image Editor) afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
 
 Il y a plusieurs cas pratiques qui illustrent ce que je viens de dire. Mais ce n'est pas l'objet de cette vidéo. De toutes les façons, on les verra au fur et à mesure dans les futur vidéos.
 
@@ -46,7 +46,7 @@ L'éditeur de Timeline est aussi afficher dans un conteneur. Idem pour la Viewpo
 
 Comment je fais pour identifier les conteneurs? Et bien, c'est simple.
 
-Il suffit de regarder les bordures autour des éditeurs. Elles sont de couleur noir si vous êtes en mode Dark.
+Il suffit de regarder les bordures autour des éditeurs. Elles sont de couleur noir si vous êtes en mode Dark comme moi ici dans cette video.
 
 Le curseur change de forme lorsqu'on ait sur la bordure d'un éditeur donné. Reprenoms l'éditeur de propriétés.
 
