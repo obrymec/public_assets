@@ -26,13 +26,13 @@ Blender est un logiciel gratuit et open-source qui permet de créer des images e
 
 De manière plus technique on pourrai dire que Blender est constitué d'un ensemble d'éditeurs ayant tous une tâche bien spécifique tout en se partagant les données.
 
-Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur 3D ainsi que de celui  du chargement d'image (je parle du fameux Image Editor) afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
+Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur 3D ainsi que de celui du chargement d'image (je parle du fameux Image Editor) afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
 
 Il y a plusieurs cas pratiques qui illustrent ce que je viens de dire. Mais ce n'est pas l'objet de cette vidéo. De toutes les façons, on les verra au fur et à mesure dans les futur vidéos.
 
 Qu'est-ce que je sous-entend en parlant de conteneur?
 
-En réalité, je n'est pas pu trouvé le bon mot, mais comme ce que je vais vous montrer se raproche du rôle d'un conteneur en générale, j'ai décidé d'utiliser ce mot.
+En réalité, je n'est pas pu trouvé le bon mot, mais comme ce que je vais vous montrer se raproche du rôle d'un conteneur en générale, j'ai donc décidé d'utiliser ce mot.
 
 Donc ne me masacrer pas dans les commentaires s'il vous plaît. Un conteneur de Blender est une partie ou une section dans laquelle est affichée un éditeur de travail.
 

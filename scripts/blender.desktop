@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=5.0.1
+Type=Application
+Name=Blender 5.0.1
+GenericName=3D Modeler
+Comment=3D modeling, animation, rendering and more
+Exec=/path/to/blender %f
+Icon=/path/to/blender.svg
+Terminal=false
+Categories=Graphics;3DGraphics;
+MimeType=application/x-blender;
+Keywords=3D;modeling;animation;rendering;sculpt;
+StartupNotify=true
+StartupWMClass=blender
