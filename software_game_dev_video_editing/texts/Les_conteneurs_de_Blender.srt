@@ -64,13 +64,13 @@ Les conteneurs de Blender nous donnent la possibilité de faire certaines action
 
 Comment ça marche? C'est très simple. Considérons la viewport 3D.
 
-Glissons notre souris sur le coin se situant en bas à droite sur les bordures de cet éditeur, jusqu'à ce que le curseur se transform en un viseur ou une croie.
+Glissons notre souris sur le coin se situant en bas à droite sur les bordures de cet éditeur, jusqu'à ce que le curseur se transforme en un viseur ou une croie.
 
 Ensuite, faites un clique droit lorsque le curseur est dans cet état. Un petit menu contextuel s'affiche avec les options disponibles ou possibles.
 
 On peut effectuer une subdivision verticale et horizontale. Fusionner et permuter les contenues de deux conteneurs distincts.
 
-Alors, lorsque je sélectionne la subdivision horizontal, on constate que Blender nous demande qu'elle partie du conteneur nous souhaitons subdiviser.
+Alors, lorsque je sélectionne la subdivision horizontal, on constate que Blender me demande qu'elle partie du conteneur je souhaite subdiviser.
 
 Lorsque vous avez trouver la partie que vous voulez subdiviser, il vous suffira tout simple d'appuyer sur le bouton gauche de la souris. C'est le même principe pour la subdivision verticale.
 
@@ -84,9 +84,9 @@ C'est le même principe dans le cas d'une fusion horizontale. Pour permuter le c
 
 Vous devez savoir que la permutation des contenus se fera par rapport au coin sur lequel vous demandez la permutation. Un exemple concrete.
 
-Si je décide de faire ma permutation par rapport à ce coin là. Vous voyez les contenus des conteneurs qui sont affectés par cette permutation là!
+Si je décide de faire ma permutation par rapport à ce coin là. Vous voyez le contenu des conteneurs qui sont affectés par cette permutation là!
 
-Si je décide encore de faire ma permutation à partir de ce coin là. Vous voyez les contenus des conteneurs qui sont affectés!
+Si je décide encore de faire ma permutation à partir de ce coin là. Vous voyez le contenu des conteneurs qui sont affectés!
 
 Qu'est-ce que cela nous donne comme information? On déduit que la permutation se fait en fonction du coin choisi.
 
