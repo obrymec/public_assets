@@ -10,7 +10,7 @@ On fera aussi des manipulations sur Blender dans le but d'illustrer les cas d'ut
 
 Il faut savoir que la plupard des débutants sur le logiciel Blender sont souvent frapper par une panoplit de buttons comme s'ils étaient en face du tableau de bord d'un avion de ligne, de chasse ou encore d'un hélicoptère.
 
-Ce qui fais qu'ils se perdent rapidement dans les utilisations. ça se passe pendant les premières prises de contacte avec le logiciel.
+Bon, vous voyez déjà de quoi je parle. Cela fais qu'ils se perdent rapidement dans les utilisations. ça se passe pendant les premières prises de contacte avec le logiciel.
 
 Cette video vient casser cette barrière. Ce qu'il faut savoir avant tout, c'est que Blender est un ensemble d'éditeurs tous liés les uns aux autres.
 
@@ -26,13 +26,13 @@ Blender est un logiciel gratuit et open-source qui permet de créer des images e
 
 De manière plus technique on pourrai dire que Blender est constitué d'un ensemble d'éditeurs ayant tous une tâche bien spécifique tout en se partagant les données.
 
-Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur 3D ainsi que de celui du chargement d'image (je parle du fameux Image Editor) afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
+Par exemple l'éditeur UV récupère les données dont-il a besoin de l'éditeur de chargement d'image afin de représenter la projection du patron d'un objet de l'espace sur une image : Communément appelé `Texture`.
 
 Il y a plusieurs cas pratiques qui illustrent ce que je viens de dire. Mais ce n'est pas l'objet de cette vidéo. De toutes les façons, on les verra au fur et à mesure dans les futur vidéos.
 
 Qu'est-ce que je sous-entend en parlant de conteneur?
 
-En réalité, je n'est pas pu trouvé le bon mot, mais comme ce que je vais vous montrer se raproche du rôle d'un conteneur en générale, j'ai donc décidé d'utiliser ce mot.
+En réalité, je n'est pas pu trouvé le bon mot, mais comme ce que je vais vous montrer se raproche du rôle d'un conteneur en générale, j'ai décidé d'utiliser ce mot.
 
 Donc ne me masacrer pas dans les commentaires s'il vous plaît. Un conteneur de Blender est une partie ou une section dans laquelle est affichée un éditeur de travail.
 
@@ -46,7 +46,7 @@ L'éditeur de Timeline est aussi afficher dans un conteneur. Idem pour la Viewpo
 
 Comment je fais pour identifier les conteneurs? Et bien, c'est simple.
 
-Il suffit de regarder les bordures autour des éditeurs. Elles sont de couleur noir si vous êtes en mode Dark comme moi ici dans cette video.
+Il suffit de regarder les bordures autour des éditeurs. Elles sont de couleur noir si vous êtes en mode Dark.
 
 Le curseur change de forme lorsqu'on ait sur la bordure d'un éditeur donné. Reprenoms l'éditeur de propriétés.
 
@@ -64,13 +64,13 @@ Les conteneurs de Blender nous donnent la possibilité de faire certaines action
 
 Comment ça marche? C'est très simple. Considérons la viewport 3D.
 
-Glissons notre souris sur le coin se situant en bas à droite sur les bordures de cet éditeur, jusqu'à ce que le curseur se transforme en un viseur ou une croie.
+Glissons notre souris sur le coin se situant en bas à droite sur les bordures de cet éditeur, jusqu'à ce que le curseur se transform en un viseur ou une croie.
 
 Ensuite, faites un clique droit lorsque le curseur est dans cet état. Un petit menu contextuel s'affiche avec les options disponibles ou possibles.
 
 On peut effectuer une subdivision verticale et horizontale. Fusionner et permuter les contenues de deux conteneurs distincts.
 
-Alors, lorsque je sélectionne la subdivision horizontal, on constate que Blender me demande qu'elle partie du conteneur je souhaite subdiviser.
+Alors, lorsque je sélectionne la subdivision horizontal, on constate que Blender nous demande qu'elle partie du conteneur nous souhaitons subdiviser.
 
 Lorsque vous avez trouver la partie que vous voulez subdiviser, il vous suffira tout simple d'appuyer sur le bouton gauche de la souris. C'est le même principe pour la subdivision verticale.
 
@@ -84,9 +84,9 @@ C'est le même principe dans le cas d'une fusion horizontale. Pour permuter le c
 
 Vous devez savoir que la permutation des contenus se fera par rapport au coin sur lequel vous demandez la permutation. Un exemple concrete.
 
-Si je décide de faire ma permutation par rapport à ce coin là. Vous voyez le contenu des conteneurs qui sont affectés par cette permutation là!
+Si je décide de faire ma permutation par rapport à ce coin là. Vous voyez les contenus des conteneurs qui sont affectés par cette permutation là!
 
-Si je décide encore de faire ma permutation à partir de ce coin là. Vous voyez le contenu des conteneurs qui sont affectés!
+Si je décide encore de faire ma permutation à partir de ce coin là. Vous voyez les contenus des conteneurs qui sont affectés!
 
 Qu'est-ce que cela nous donne comme information? On déduit que la permutation se fait en fonction du coin choisi.
 
