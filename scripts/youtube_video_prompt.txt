@@ -1,0 +1,18 @@
+---------------------- Description Generation ----------------------------
+I've a video with following info :
+Title : <Your video title>
+Cover Image : Uploaded as image file
+Video Content : Uploaded as .srt file (Not required)
+
+Inspects correctly uploaded cover image file, uploaded (.srt) file and video title to produce me, a description optimized for YouTube.
+
+---------------------- Hashtags and Tags Generation ----------------------------
+I've a video with following info :
+Title : <Your video title>
+Cover Image : Uploaded as image file
+Video Content : Uploaded as .srt file (Not required)
+My channel global tags are : <Your channel global tags>
+Description : <Your video YouTube description>
+
+Inspects correctly uploaded cover image file, uploaded (.srt) file, video title and my channel global tags to produce me, hashtags I'll use at full bottom of description and tags I'll use to fill youtube tags input of my video. Note: Hashtags and tags must be optimized for YouTube.
+
