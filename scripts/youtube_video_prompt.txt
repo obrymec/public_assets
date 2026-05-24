@@ -16,3 +16,8 @@ Description : <Your video YouTube description>
 
 Inspects correctly uploaded cover image file, uploaded (.srt) file, video title and my channel global tags to produce me, hashtags I'll use at full bottom of description and tags I'll use to fill youtube tags input of my video. Note: Hashtags and tags must be optimized for YouTube.
 
+
+Game Art Channel Tags : gaming, let's play, let's play fr, decouverte jeu video, actu gaming, gameplay fr, moments epiques gaming, jeux video, culture gaming, game art
+
+Software and Game Dev Channel Tags : software development, software engineer, coding, programming, gamedev, game development, godot engine, godot, blender, blender 3d, saas, indie game dev
+
