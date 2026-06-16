@@ -1,0 +1,32 @@
+---------------------------------------- Introduction ---------------------------------
+Salut, c'est Obrymec. J'espère vous avez la pêche aujourd'hui.
+
+Dans cette video, je vous présente le gestionnaire de la caméra de notre joueur.
+
+Il s'agit bien du mobule "NC_CameraController".
+
+Son role principal est de positioner la caméra native de Godot à la troisième personne.
+
+Voici le resultat final après avoir mis en place de ce module.
+
+Je me suis appuyer sur la vision de la caméra dans "Résident Evil 2 (Remake)" pour coder ce module.
+
+Comment appréciez-vous le rendu final? Si vous avez des idées ou suggestions qui vous viennent à l'esprit, n'hésitez pas à m'en faire part dans les commentaires.
+
+Maintenant, comment j'ai fait pour implémenter le module de gestion de la camera du joueur?
+
+---------------------------------------- Camera in AAA Games --------------------------
+-> Camera definition
+-> Camera rule
+-> Camera importance
+
+---------------------------------------- Camera Control implementation ----------------
+-> Talk about how I discover the base code of camera controller : https://godotengine.org/asset-library/asset/167
+
+-> Explain briefly, all features of the homemade camera control module.
+
+---------------------------------------- Base Locomotion Improvement ------------------
+-> Talk briefly about implementation and integration of NC_DirectionalCollision module and show its result in realtime.
+
+-> Si vous avez aimer la vidéo, n'oubliez pas la liker et de vous abonnez si cela n'est pas déjà fait. On se retrouve à la prochaine vidéo.
+
